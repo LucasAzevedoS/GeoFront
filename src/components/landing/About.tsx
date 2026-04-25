@@ -39,10 +39,10 @@ export function About() {
                 <ThemeIcon size={44} radius="xl" color="brand.9">
                   {value.icon}
                 </ThemeIcon>
-                <Title order={3} size="h4">
+                <Title order={3} size="h4" c="var(--mantine-color-text)">
                   {value.title}
                 </Title>
-                <Text c="brand.7">{value.description}</Text>
+                <Text c="dimmed">{value.description}</Text>
               </Stack>
             </Paper>
           ))}

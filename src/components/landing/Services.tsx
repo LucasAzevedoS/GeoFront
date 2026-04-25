@@ -74,10 +74,10 @@ export function Services() {
                 <ThemeIcon size={46} radius="xl" color="brand.9">
                   {service.icon}
                 </ThemeIcon>
-                <Title order={3} size="h4">
+                <Title order={3} size="h4" c="var(--mantine-color-text)">
                   {service.title}
                 </Title>
-                <Text c="brand.7">{service.description}</Text>
+                <Text c="dimmed">{service.description}</Text>
               </Stack>
             </Paper>
           ))}

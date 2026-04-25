@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "55SEUNUMERO";
+export const WHATSAPP_NUMBER = "+5511980671502";
 export const WHATSAPP_MESSAGE =
   "Olá! Gostaria de solicitar um atendimento técnico.";
 

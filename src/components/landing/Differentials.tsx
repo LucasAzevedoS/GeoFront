@@ -34,7 +34,9 @@ export function Differentials() {
                 <ThemeIcon size={44} radius="xl" color="brand.9">
                   {item.icon}
                 </ThemeIcon>
-                <Text fw={700}>{item.text}</Text>
+                <Text fw={700} c="var(--mantine-color-text)">
+                  {item.text}
+                </Text>
               </Stack>
             </Paper>
           ))}
