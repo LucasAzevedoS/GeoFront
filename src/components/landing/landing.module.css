@@ -1,0 +1,75 @@
+.section {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
+}
+
+.headerRoot {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(12px);
+  background: rgba(239, 241, 244, 0.9);
+  border-bottom: 1px solid rgba(34, 38, 48, 0.08);
+}
+
+.brandTitle {
+  letter-spacing: 0.08em;
+}
+
+.navLink {
+  color: #222630;
+  font-weight: 500;
+  transition: color 180ms ease;
+}
+
+.navLink:hover {
+  color: #090b10;
+}
+
+.heroTitle {
+  line-height: 1.08;
+}
+
+.heroSurface {
+  border: 1px solid rgba(17, 20, 27, 0.08);
+  background: linear-gradient(160deg, #ffffff 0%, #eff1f4 100%);
+}
+
+.featurePanel {
+  border: 1px solid rgba(17, 20, 27, 0.12);
+  background: linear-gradient(160deg, #11141b 0%, #222630 100%);
+  color: #ffffff;
+}
+
+.serviceCard,
+.differentialCard,
+.aboutCard {
+  height: 100%;
+  border: 1px solid rgba(17, 20, 27, 0.08);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.serviceCard:hover,
+.differentialCard:hover,
+.aboutCard:hover {
+  transform: translateY(-6px);
+  border-color: rgba(17, 20, 27, 0.2);
+  box-shadow: 0 16px 30px rgba(17, 20, 27, 0.12);
+}
+
+.ctaSurface {
+  border: 1px solid rgba(17, 20, 27, 0.12);
+  color: #ffffff;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(184, 188, 197, 0.2) 0, transparent 32%),
+    linear-gradient(160deg, #11141b 0%, #090b10 100%);
+}
+
+.footerRoot {
+  padding: 2.5rem 0 2rem;
+  color: #eff1f4;
+  background: #090b10;
+}
+
